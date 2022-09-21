@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: fixed;
+    width: 100%;
+    background-color: rgb(255, 106, 0);
+}
+
+.navlogo {
+    width: 120px;
+}
+
+.gender {
+    display: flex;
+    gap: 10px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
